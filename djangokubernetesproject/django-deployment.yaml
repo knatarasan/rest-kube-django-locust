@@ -15,10 +15,10 @@ spec:
         app: django
     spec:
       containers:
-        - image: knatarasan/thurai:latest
+        - image: knatarasan/thurai
           name: django
           ports:
             - containerPort: 8000
               name: gunicorn
       imagePullSecrets:
-      - name: dockersecret
+        - name: dockersecret

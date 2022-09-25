@@ -5,4 +5,4 @@ RUN pip install django gunicorn psycopg2
 ADD . /app
 WORKDIR /app
 EXPOSE 8000
-CMD ["gunicorn","--bind",":8000","--workers","3","djangokubernetesproject.wsgi"]
+CMD ["gunicorn", "--bind", ":8000", "--workers", "3", "djangokubernetesproject.wsgi"]
