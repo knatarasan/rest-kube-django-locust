@@ -19,6 +19,7 @@ kannappannatarasan@kanna-mac django_on_kube_23sep2022 %`
 
 -[X] Follow the steps from
   -[X] https://betterprogramming.pub/how-to-deploy-a-django-application-with-kubernetes-f5814b0688bf
+    -[X] [To fix not able to get image from docker hub](https://www.containiq.com/post/kubernetes-imagepullbackoff)
   - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes    `
   - https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
 
