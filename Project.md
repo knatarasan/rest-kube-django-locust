@@ -23,3 +23,5 @@ kannappannatarasan@kanna-mac django_on_kube_23sep2022 %`
     -[X] [How to pull image from docker hub](https://stackoverflow.com/questions/69518242/getting-docker-private-registry-url)
   - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes    `
   - https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
+
+-[X] [To spin postgres on container](https://phoenixnap.com/kb/postgresql-kubernetes)
