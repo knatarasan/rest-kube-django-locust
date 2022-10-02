@@ -25,3 +25,4 @@ kannappannatarasan@kanna-mac django_on_kube_23sep2022 %`
   - https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
 
 -[X] [To spin postgres on container](https://phoenixnap.com/kb/postgresql-kubernetes)
+- To connect with Postgres: postgres-76dc74fb74-85cb4
