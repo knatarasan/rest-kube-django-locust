@@ -29,3 +29,12 @@ minikube service django-service
 
 ### To run shell of container:
 `kubectl exec -it pod-name -- /bin/bash`
+
+### To reach container with psql client:
+`kubectl exec -it [pod-name] --  psql -h localhost -U admin --password -p [port] postgresdb`
+Example
+`k exec -it postgres-5657d98cdf-6458f -- psql -h localhost -U django --password -p 5432 todo`
+
+### To run minikube:
+1. Docker desktop : Up and running
+2. `minikube start`
