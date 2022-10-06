@@ -15,6 +15,22 @@ kubectl apply -f django/
 minikube service django-service
 ```
 
+### Run prometheus
+```shell
+cd prometheus
+kubectl create namespace monitoring
+kubectl create -f clusterRole.yaml
+kubectl create -f config-map.yaml
+kubectl create  -f prometheus-deployment.yaml 
+kubectl get deployments --namespace=monitoring
+kubectl get pods --namespace=monitoring
+
+# To run prometheus UI
+kubectl port-forward prometheus-monitoring-<name from above command> 8080:9090 -n monitoring
+```
+
+## Kubernetes commands
+
 ### How to check django log
 `k logs django-f77bd65db-5t6hp`
 
