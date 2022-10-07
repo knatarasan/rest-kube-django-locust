@@ -21,7 +21,7 @@ cd prometheus
 kubectl create namespace monitoring
 kubectl create -f clusterRole.yaml
 kubectl create -f config-map.yaml
-kubectl create  -f prometheus-deployment.yaml 
+kubectl create  -f prometheus-php-apache.yaml 
 kubectl get deployments --namespace=monitoring
 kubectl get pods --namespace=monitoring
 

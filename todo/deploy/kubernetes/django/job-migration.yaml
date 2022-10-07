@@ -8,7 +8,7 @@
 #     spec:
 #       containers:
 #         - name: django
-#           image: gitumarkk/k8_django_minikube:part_3
+#           image: knatarasan/todo
 #           command: ['python', 'manage.py', 'migrate']
 #           env:
 #             - name: POSTGRES_USER
